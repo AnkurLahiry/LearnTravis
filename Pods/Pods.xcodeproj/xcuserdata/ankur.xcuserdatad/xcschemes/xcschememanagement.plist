@@ -4,24 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-LearnTravis-LearnTravisUITests.xcscheme</key>
+		<key>Pods-LearnTravis-LearnTravisUITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-LearnTravis.xcscheme</key>
+		<key>Pods-LearnTravis.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-LearnTravisTests.xcscheme</key>
+		<key>Pods-LearnTravisTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
