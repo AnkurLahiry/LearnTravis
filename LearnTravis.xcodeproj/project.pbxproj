@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		208E7EA955E2E79BF3A3D5C8 /* Pods_LearnTravis_LearnTravisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097E2262A3895A1CDD7F639D /* Pods_LearnTravis_LearnTravisUITests.framework */; };
 		924FEA1A2541D8E500AFBC36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924FEA192541D8E500AFBC36 /* AppDelegate.swift */; };
-		924FEA1C2541D8E500AFBC36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924FEA1B2541D8E500AFBC36 /* SceneDelegate.swift */; };
 		924FEA1E2541D8E500AFBC36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924FEA1D2541D8E500AFBC36 /* ViewController.swift */; };
 		924FEA212541D8E500AFBC36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924FEA1F2541D8E500AFBC36 /* Main.storyboard */; };
 		924FEA232541D8E800AFBC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924FEA222541D8E800AFBC36 /* Assets.xcassets */; };
 		924FEA262541D8E800AFBC36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924FEA242541D8E800AFBC36 /* LaunchScreen.storyboard */; };
 		924FEA312541D8E800AFBC36 /* LearnTravisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924FEA302541D8E800AFBC36 /* LearnTravisTests.swift */; };
 		924FEA3C2541D8E800AFBC36 /* LearnTravisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924FEA3B2541D8E800AFBC36 /* LearnTravisUITests.swift */; };
+		DE04D3C7134D5BCA184057DD /* Pods_LearnTravisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF2F727A944FE77E7B40C50 /* Pods_LearnTravisTests.framework */; };
+		E956FD4D728A7A252B5222F5 /* Pods_LearnTravis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F20D621E4921B599EE03922 /* Pods_LearnTravis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097E2262A3895A1CDD7F639D /* Pods_LearnTravis_LearnTravisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnTravis_LearnTravisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF2F727A944FE77E7B40C50 /* Pods_LearnTravisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnTravisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CB9F850A90A74815ADB0CD /* Pods-LearnTravisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTravisTests.debug.xcconfig"; path = "Target Support Files/Pods-LearnTravisTests/Pods-LearnTravisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46770A3884B87A1CEAE8B907 /* Pods-LearnTravis-LearnTravisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTravis-LearnTravisUITests.release.xcconfig"; path = "Target Support Files/Pods-LearnTravis-LearnTravisUITests/Pods-LearnTravis-LearnTravisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B462EF317A1B98B128D014D /* Pods-LearnTravis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTravis.debug.xcconfig"; path = "Target Support Files/Pods-LearnTravis/Pods-LearnTravis.debug.xcconfig"; sourceTree = "<group>"; };
+		8F20D621E4921B599EE03922 /* Pods_LearnTravis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnTravis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		924FEA162541D8E500AFBC36 /* LearnTravis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnTravis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		924FEA192541D8E500AFBC36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		924FEA1B2541D8E500AFBC36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		924FEA1D2541D8E500AFBC36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		924FEA202541D8E500AFBC36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		924FEA222541D8E800AFBC36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		924FEA372541D8E800AFBC36 /* LearnTravisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnTravisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		924FEA3B2541D8E800AFBC36 /* LearnTravisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTravisUITests.swift; sourceTree = "<group>"; };
 		924FEA3D2541D8E800AFBC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3165D645265DF5BADF572B /* Pods-LearnTravis-LearnTravisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTravis-LearnTravisUITests.debug.xcconfig"; path = "Target Support Files/Pods-LearnTravis-LearnTravisUITests/Pods-LearnTravis-LearnTravisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAE0B24D9D27B2E91A17B9BD /* Pods-LearnTravis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTravis.release.xcconfig"; path = "Target Support Files/Pods-LearnTravis/Pods-LearnTravis.release.xcconfig"; sourceTree = "<group>"; };
+		DCD4A99F35A27BE32758DE23 /* Pods-LearnTravisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnTravisTests.release.xcconfig"; path = "Target Support Files/Pods-LearnTravisTests/Pods-LearnTravisTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E956FD4D728A7A252B5222F5 /* Pods_LearnTravis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE04D3C7134D5BCA184057DD /* Pods_LearnTravisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208E7EA955E2E79BF3A3D5C8 /* Pods_LearnTravis_LearnTravisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				924FEA2F2541D8E800AFBC36 /* LearnTravisTests */,
 				924FEA3A2541D8E800AFBC36 /* LearnTravisUITests */,
 				924FEA172541D8E500AFBC36 /* Products */,
+				AADA18790332F7268FCEEAD1 /* Pods */,
+				DD50B54328E8FD44AFC375A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				924FEA192541D8E500AFBC36 /* AppDelegate.swift */,
-				924FEA1B2541D8E500AFBC36 /* SceneDelegate.swift */,
 				924FEA1D2541D8E500AFBC36 /* ViewController.swift */,
 				924FEA1F2541D8E500AFBC36 /* Main.storyboard */,
 				924FEA222541D8E800AFBC36 /* Assets.xcassets */,
@@ -128,6 +142,30 @@
 			path = LearnTravisUITests;
 			sourceTree = "<group>";
 		};
+		AADA18790332F7268FCEEAD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B462EF317A1B98B128D014D /* Pods-LearnTravis.debug.xcconfig */,
+				AAE0B24D9D27B2E91A17B9BD /* Pods-LearnTravis.release.xcconfig */,
+				9F3165D645265DF5BADF572B /* Pods-LearnTravis-LearnTravisUITests.debug.xcconfig */,
+				46770A3884B87A1CEAE8B907 /* Pods-LearnTravis-LearnTravisUITests.release.xcconfig */,
+				13CB9F850A90A74815ADB0CD /* Pods-LearnTravisTests.debug.xcconfig */,
+				DCD4A99F35A27BE32758DE23 /* Pods-LearnTravisTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD50B54328E8FD44AFC375A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F20D621E4921B599EE03922 /* Pods_LearnTravis.framework */,
+				097E2262A3895A1CDD7F639D /* Pods_LearnTravis_LearnTravisUITests.framework */,
+				0DF2F727A944FE77E7B40C50 /* Pods_LearnTravisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 924FEA402541D8E800AFBC36 /* Build configuration list for PBXNativeTarget "LearnTravis" */;
 			buildPhases = (
+				44DE03197C5ADE76AE9B064A /* [CP] Check Pods Manifest.lock */,
 				924FEA122541D8E500AFBC36 /* Sources */,
 				924FEA132541D8E500AFBC36 /* Frameworks */,
 				924FEA142541D8E500AFBC36 /* Resources */,
@@ -152,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 924FEA432541D8E800AFBC36 /* Build configuration list for PBXNativeTarget "LearnTravisTests" */;
 			buildPhases = (
+				2FD5761303DB9CE1607DF185 /* [CP] Check Pods Manifest.lock */,
 				924FEA282541D8E800AFBC36 /* Sources */,
 				924FEA292541D8E800AFBC36 /* Frameworks */,
 				924FEA2A2541D8E800AFBC36 /* Resources */,
@@ -170,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 924FEA462541D8E800AFBC36 /* Build configuration list for PBXNativeTarget "LearnTravisUITests" */;
 			buildPhases = (
+				05683DE0A65E91D8EFB7AB38 /* [CP] Check Pods Manifest.lock */,
 				924FEA332541D8E800AFBC36 /* Sources */,
 				924FEA342541D8E800AFBC36 /* Frameworks */,
 				924FEA352541D8E800AFBC36 /* Resources */,
@@ -253,6 +294,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05683DE0A65E91D8EFB7AB38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnTravis-LearnTravisUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FD5761303DB9CE1607DF185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnTravisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44DE03197C5ADE76AE9B064A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearnTravis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		924FEA122541D8E500AFBC36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +370,6 @@
 			files = (
 				924FEA1E2541D8E500AFBC36 /* ViewController.swift in Sources */,
 				924FEA1A2541D8E500AFBC36 /* AppDelegate.swift in Sources */,
-				924FEA1C2541D8E500AFBC36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +542,14 @@
 		};
 		924FEA412541D8E800AFBC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B462EF317A1B98B128D014D /* Pods-LearnTravis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A2D242JD56;
 				INFOPLIST_FILE = LearnTravis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +563,14 @@
 		};
 		924FEA422541D8E800AFBC36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE0B24D9D27B2E91A17B9BD /* Pods-LearnTravis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A2D242JD56;
 				INFOPLIST_FILE = LearnTravis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +584,7 @@
 		};
 		924FEA442541D8E800AFBC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CB9F850A90A74815ADB0CD /* Pods-LearnTravisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +607,7 @@
 		};
 		924FEA452541D8E800AFBC36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCD4A99F35A27BE32758DE23 /* Pods-LearnTravisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +630,7 @@
 		};
 		924FEA472541D8E800AFBC36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3165D645265DF5BADF572B /* Pods-LearnTravis-LearnTravisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +651,7 @@
 		};
 		924FEA482541D8E800AFBC36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46770A3884B87A1CEAE8B907 /* Pods-LearnTravis-LearnTravisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

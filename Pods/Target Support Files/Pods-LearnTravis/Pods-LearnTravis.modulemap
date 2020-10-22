@@ -1,0 +1,6 @@
+framework module Pods_LearnTravis {
+  umbrella header "Pods-LearnTravis-umbrella.h"
+
+  export *
+  module * { export * }
+}
